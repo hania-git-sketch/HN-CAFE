@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HN Café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="logo">☕ HN café</div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger">☰</div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Fresh Coffee. Purple Vibes.</h1>
+            <p>Enjoy premium handcrafted coffee in a modern cozy space.</p>
+            <button class="btn" onclick="reserveTable()">Reserve a Table</button>
+        </div>
+    </section>
+
+    <section class="menu reveal" id="menu">
+        <h2>Our Special Menu</h2>
+        <div class="menu-grid">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d" alt="Latte">
+                <h3>Latte</h3>
+                <p>Rich espresso blended with creamy steamed milk.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p>Perfect harmony of espresso, milk & foam.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" alt="Americano">
+                <h3>Americano</h3>
+                <p>Bold espresso softened with hot water.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about reveal" id="about">
+        <h2>About Us</h2>
+        <p>
+            HN Café is a modern coffee destination designed for comfort,
+            productivity, and unforgettable coffee experiences.
+        </p>
+    </section>
+
+    <section class="contact reveal" id="contact">
+        <h2>Contact Us</h2>
+        <p>📍 Karachi, Pakistan</p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 HN Café | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
